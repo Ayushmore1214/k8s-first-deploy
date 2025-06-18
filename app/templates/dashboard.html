@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Welcome, {{ user.login }}!</h2>
+    <p>Select a repository below to back it up:</p>
+
+    <form method="POST" action="/backup">
+        <table>
+            <thead>
+                <tr>
+                    <th>Repository</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for repo in repos %}
+                    <tr>
+                        <td>{{ repo.name }}</td>
+                        <td>
+                            <form method="POST" action="/backup">
+                                <input type="hidden" name="repo" value="{{ repo.name }}">
+                                <input type="submit" value="Backup">
+                            </form>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </form>
+{% endblock %}
