@@ -1,7 +1,1 @@
-Flask
-Flask-OAuthlib
-requests
-google-cloud-storage
-psycopg2-binary
-sqlalchemy
-google-cloud-secret-manager
+flask
