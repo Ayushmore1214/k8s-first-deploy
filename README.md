@@ -1,21 +1,34 @@
-# 🏆 You Did It, Champ! – Your First Kubernetes App
+#  You Did It, Champ! – Your First Kubernetes App
 
 Welcome to your **first step into Kubernetes**. This repo will help you:
 
-✅ Build a basic Flask app  
-✅ Containerize it with Docker  
-✅ Deploy it using Kubernetes  
-✅ Feel like a champ 🥇
+ Build a basic Flask app  
+Containerize it with Docker  
+ Deploy it using Kubernetes  
+ Feel like a champ 
 
 ---
 
-## 📦 What’s Inside
+## 📋 Prerequisites
 
-- 🐍 A simple Flask app (`/app/app.py`)
-- 🐳 Dockerfile for building the container
-- ☸️ Kubernetes YAMLs in `/kubernetes`
-- 📸 Terminal screenshots for clarity
-- 🚀 A message to celebrate your success
+Before you begin, make sure you have the following installed:
+
+- [Python 3.x](https://www.python.org/downloads/) (used to run the Flask app)
+- [pip](https://pip.pypa.io/en/stable/installation/) (Python package manager)
+- [Docker](https://docs.docker.com/get-docker/)
+- [kubectl](https://kubernetes.io/docs/tasks/tools/) (Kubernetes CLI)
+- [Minikube](https://minikube.sigs.k8s.io/docs/start/) (local Kubernetes cluster)
+
+> Optional: A [Docker Hub](https://hub.docker.com/) account for pushing your image
+
+
+##  What’s Inside ?
+
+- A simple Flask app (`/app/app.py`)
+-  Dockerfile for building the container
+-  Kubernetes YAMLs in `/kubernetes`
+-  Terminal screenshots for clarity
+-  A message to celebrate your success
 
 ---
 
@@ -61,7 +74,7 @@ Place your terminal screenshots in the `static/` folder:
 ## Expected Output
 When everything is running, you'll see:
 ```
-You did it, champ! 🚀🔥
+You did it, champ! 
 ```
 
 ## Inspiration
@@ -69,7 +82,7 @@ You did it, champ! 🚀🔥
 > ```bash
 > kubectl apply -f .
 > ```
-> You're doing awesome — keep building and sharing! 💪"
+> You're doing awesome — keep building and sharing! "
 
 ---
 
