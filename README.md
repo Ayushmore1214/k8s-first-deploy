@@ -2,11 +2,6 @@
 
 Welcome to your **first step into Kubernetes**. This repo will help you:
 
- Build a basic Flask app  
-Containerize it with Docker  
- Deploy it using Kubernetes  
- Feel like a champ 
-
 ---
 
 ## 📋 Prerequisites
